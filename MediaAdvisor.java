@@ -1,3 +1,5 @@
+//expert system project
+
 package expertSystems;
 
 import javafx.application.Application;
@@ -119,11 +121,6 @@ public void selectStimuluResponse(ComboBox<String> cbo2) {
 		 
 		 if(cbo2_value=="building"||cbo2_value=="repairing"||cbo2_value=="troubleshooting")
 			 stimulus_response="hands-on";
- 
-		 //Rule 7
-		 
-		 if(cbo2_value=="writing"||cbo2_value=="typing"||cbo2_value=="drawing")
-			 stimulus_sitiuation="documented";
 		 
 	 //Rule 8
 		 
@@ -173,7 +170,7 @@ public String selectMedia(String stimulusSituation,String stimulusResponse,Combo
 	//Rule 10
 	
 	if(stimulusSituation=="symbolic"&&stimulusResponse=="analytical"&&selectedFeedback=="required")
-		media="lecture – tutorial";
+		media="lecture â€“ tutorial";
 	
 	//Rule 11
 	
@@ -183,12 +180,12 @@ public String selectMedia(String stimulusSituation,String stimulusResponse,Combo
 	//Rule 12
 	
 	if(stimulusSituation=="visual"&&stimulusResponse=="oral"&&selectedFeedback=="required")
-		media="lecture – tutorial";
+		media="lecture â€“ tutorial";
 	
 	//Rule 13
 	
 	if(stimulusSituation=="verbal"&&stimulusResponse=="analytical"&&selectedFeedback=="required")
-		media="lecture – tutorial";
+		media="lecture â€“ tutorial";
 	
 	//Rule 14
 	
