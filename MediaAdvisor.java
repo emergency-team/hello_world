@@ -1,4 +1,4 @@
-//the first expert system project
+// expert system project
 
 package expertSystems;
 
